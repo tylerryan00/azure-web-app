@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to My Resume</h1>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University of Central Florida</strong></p>
+        <p>Bachelor of Science in Information Technology</p>
+        <p>Minor in Secure Computing and Networks</p>
+        <p>Awards/Certifications: Microsoft Certified: Azure Fundamentals, 5x UCF CECS Dean’s List, President’s Honor Roll</p>
+        <p>Current External Coursework: AWS CSA – Associate (Adrian Cantrill), Docker Fundamentals (Adrian Cantrill)</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: Python, Bash, Batch, Git, Terraform, PowerShell</li>
+            <li>Applications: NSX, vSphere, VMware Aria Operations suite, Amazon Web Services, Azure, ServiceNow, Secret Server, Confluence, Jira Service Management, Docker</li>
+            <li>Operating Systems: Windows, Ubuntu Server, RHEL, Mac OS, Windows Server</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <!-- First Job -->
+        <div class="job">
+            <h3>University of Central Florida | Cloud Engineer | Orlando, FL</h3>
+            <p>March 2022 – Present</p>
+            <h4>Daily Responsibilities:</h4>
+            <ul>
+                <li>Support business operations by deploying and maintaining virtual machines in a hybrid cloud environment, ensuring seamless integration and upholding an average SLA of 98% over 
+the past year.</li>
+                <li>Architect and maintain a micro-segmented policy within NSX to bolster network security and optimize operational efficiency.</li>
+                <li>Regularly conduct training sessions and create documentation to ensure colleagues are proficient in utilizing tools and scripts, enhancing team collaboration and paving the way 
+for employee success.</li>
+            </ul>
+            <h4>Notable Past or Ongoing Projects:</h4>
+            <ul>
+                <li>Played an integral role in a significant Data Center to Azure migration of over 400 virtual machines, mitigating firewall blocks and spearheading automation tasks.</li>
+                <li>Developed and implemented a Python script to automate IP removal within NSX and Azure. This solution saved the team approximately 300 man-hours during the Data Center to Cloud 
+Migration process.</li>
+                <li>Engineering an Ubuntu VM, utilizing cron to automate the execution of Python scripts, thereby ensuring timely updates to our virtual environment cache, which is 
+version-controlled and stored in GitLab.</li>
+            </ul>
+        </div>
+        <!-- Second Job -->
+        <div class="job">
+            <h3>Engineering and Computer Simulations | IT Support | Orlando, FL</h3>
+            <p>May 2021 – March 2022</p>
+            <ul>
+                <li>Deployed policies and procedures to ensuring full compliance with NIST SP 800-171 and CMMC.</li>
+                <li>Leveraged ITIL best practices and utilized BeyondTrust RD to troubleshoot workstations and equipment.</li>
+                <li>Create Visio documents to accurately represent the internal network and device infrastructure.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Home Lab, Ongoing</h3>
+            <ul>
+                <li>Created a docker environment to run multiple applications in order to automate daily home tasks.</li>
+                <li>Established four distinct VLANs, enhancing network security and optimizing device segregation.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Ansible Automation, Fall 2023</h3>
+            <ul>
+                <li>Configured AAP2 for Windows Server automation, including updates and package management.</li>
+                <li>Progressed from utilizing ad hoc commands to orchestrating intricate playbooks for Windows patching, complemented by Chocolatey integration and enhanced with workbooks.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Multi-VPC AWS Architecture, Spring 2022</h3>
+            <ul>
+                <li>Replicated a datacenter environment using VPCs, subnets, EC2 Instances, and Transit Gateways.</li>
+                <li>Devised diverse IAM roles, simulating varied employee access levels and permissions.</li>
+                <li>Setup a VPN tunnel, seamlessly linking AWS to the emulated datacenter network.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Nessus Vulnerability Scanner with Terraform and Azure, Spring 2022</h3>
+            <ul>
+                <li>Developed a script to facilitate the provisioning and governance of multiple Windows VMs in Azure.</li>
+                <li>Established networking connections for the VMs and scanned the environment with Nessus.</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
